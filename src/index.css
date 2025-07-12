@@ -36,6 +36,18 @@
 
     --radius: 0.75rem;
 
+    /* Soft color palette */
+    --soft-blue: 210 20% 88%;
+    --soft-blue-foreground: 210 15% 35%;
+    --soft-green: 120 25% 85%;
+    --soft-green-foreground: 120 20% 30%;
+    --soft-purple: 260 25% 88%;
+    --soft-purple-foreground: 260 20% 35%;
+    --warm-beige: 35 25% 90%;
+    --warm-beige-foreground: 35 20% 25%;
+    --dusty-rose: 340 20% 88%;
+    --dusty-rose-foreground: 340 25% 35%;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;

@@ -42,7 +42,10 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-up">
-              <Badge variant="secondary" className="mb-4">
+              <Badge
+                variant="secondary"
+                className="mb-4 bg-soft-blue text-soft-blue-foreground"
+              >
                 Корпоративный проектный менеджер
               </Badge>
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
@@ -67,7 +70,7 @@ const Index = () => {
             </div>
 
             <div className="relative animate-fade-in">
-              <div className="aspect-square bg-gradient-to-br from-muted/30 to-muted/10 rounded-3xl p-8 flex items-center justify-center">
+              <div className="aspect-square bg-gradient-to-br from-soft-blue/40 to-warm-beige/30 rounded-3xl p-8 flex items-center justify-center">
                 <img
                   src="/img/8254792e-0089-4839-ad1f-2251d5f49cc2.jpg"
                   alt="Алексей Иванов"
@@ -96,8 +99,12 @@ const Index = () => {
             <Card className="border-border/40 hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="p-2 bg-primary/10 rounded-lg mr-3">
-                    <Icon name="Target" size={24} className="text-primary" />
+                  <div className="p-2 bg-soft-purple rounded-lg mr-3">
+                    <Icon
+                      name="Target"
+                      size={24}
+                      className="text-soft-purple-foreground"
+                    />
                   </div>
                   <h3 className="text-xl font-semibold">Стратегия</h3>
                 </div>
@@ -111,8 +118,12 @@ const Index = () => {
             <Card className="border-border/40 hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="p-2 bg-primary/10 rounded-lg mr-3">
-                    <Icon name="Users" size={24} className="text-primary" />
+                  <div className="p-2 bg-soft-green rounded-lg mr-3">
+                    <Icon
+                      name="Users"
+                      size={24}
+                      className="text-soft-green-foreground"
+                    />
                   </div>
                   <h3 className="text-xl font-semibold">Команды</h3>
                 </div>
@@ -126,11 +137,11 @@ const Index = () => {
             <Card className="border-border/40 hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="p-2 bg-primary/10 rounded-lg mr-3">
+                  <div className="p-2 bg-warm-beige rounded-lg mr-3">
                     <Icon
                       name="TrendingUp"
                       size={24}
-                      className="text-primary"
+                      className="text-warm-beige-foreground"
                     />
                   </div>
                   <h3 className="text-xl font-semibold">Результаты</h3>
@@ -161,7 +172,12 @@ const Index = () => {
             <Card className="border-border/40 hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
                 <div className="flex items-start justify-between mb-4">
-                  <Badge variant="secondary">2023</Badge>
+                  <Badge
+                    variant="secondary"
+                    className="bg-dusty-rose text-dusty-rose-foreground"
+                  >
+                    2023
+                  </Badge>
                   <Icon
                     name="Building2"
                     size={24}
@@ -208,7 +224,12 @@ const Index = () => {
             <Card className="border-border/40 hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
                 <div className="flex items-start justify-between mb-4">
-                  <Badge variant="secondary">2022</Badge>
+                  <Badge
+                    variant="secondary"
+                    className="bg-soft-blue text-soft-blue-foreground"
+                  >
+                    2022
+                  </Badge>
                   <Icon
                     name="Factory"
                     size={24}
@@ -269,8 +290,12 @@ const Index = () => {
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="flex flex-col items-center">
-                <div className="p-3 bg-primary/10 rounded-lg mb-3">
-                  <Icon name="Mail" size={24} className="text-primary" />
+                <div className="p-3 bg-soft-blue rounded-lg mb-3">
+                  <Icon
+                    name="Mail"
+                    size={24}
+                    className="text-soft-blue-foreground"
+                  />
                 </div>
                 <h3 className="font-semibold mb-2">Email</h3>
                 <p className="text-muted-foreground">
@@ -279,16 +304,24 @@ const Index = () => {
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="p-3 bg-primary/10 rounded-lg mb-3">
-                  <Icon name="Phone" size={24} className="text-primary" />
+                <div className="p-3 bg-soft-green rounded-lg mb-3">
+                  <Icon
+                    name="Phone"
+                    size={24}
+                    className="text-soft-green-foreground"
+                  />
                 </div>
                 <h3 className="font-semibold mb-2">Телефон</h3>
                 <p className="text-muted-foreground">+7 (495) 123-45-67</p>
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="p-3 bg-primary/10 rounded-lg mb-3">
-                  <Icon name="MapPin" size={24} className="text-primary" />
+                <div className="p-3 bg-dusty-rose rounded-lg mb-3">
+                  <Icon
+                    name="MapPin"
+                    size={24}
+                    className="text-dusty-rose-foreground"
+                  />
                 </div>
                 <h3 className="font-semibold mb-2">Локация</h3>
                 <p className="text-muted-foreground">Москва, Россия</p>
